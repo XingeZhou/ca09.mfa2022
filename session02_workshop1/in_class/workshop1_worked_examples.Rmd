@@ -168,7 +168,7 @@ movies <-read_csv(here::here("data","movies.csv")) %>%
 skimr::skim(movies)
 ```
 
-We have a look at the datafile, but let us say we wanted to explore whetther investing money in a movie is a good investment. Let us have a generate two new variables, `profit` and `return_on_budget` and have a quick look.
+We have a look at the datafile, but let us say we wanted to explore whether investing money in a movie is a good investment. Let us have a generate two new variables, `profit` and `return_on_budget` and have a quick look.
 
 ```{r}
 movies %>%
