@@ -221,7 +221,7 @@ formula_ci
 
 > What is the data showing us? Please type your answer after (and outside!) this blockquote. You have to explain what you have done, and the interpretation of the result. One paragraph max, please!
 
-# Global warming and political views (GSS)
+# Global warming and political views
 
 [A 2010 Pew Research poll](https://www.pewresearch.org/2010/10/27/wide-partisan-divide-over-global-warming/) asked 1,306 Americans, "From what you've read and heard, is there solid evidence that the average temperature on earth has been getting warmer over the past few decades, or not?"
 
@@ -243,7 +243,7 @@ global_warming_pew %>%
   count(party_or_ideology, response)
 ```
 
-We will be constructing three 95% confidence intervals to estimate population parameters, for the % who believe that **Earth is warming**, accoridng to their party or ideology. You can create the CIs using the formulas by hand, or use `prop.test()`-- just rememebr to exclude the Dont know / refuse to answer!
+We will be constructing four 95% confidence intervals to estimate population parameters, for the % who believe that **Earth is warming**, accoridng to their party or ideology. You can create the CIs using the formulas 'by hand'-- just remember to exclude the Dont know / refuse to answer!
 
 Does it appear that whether or not a respondent believes the earth is warming is independent of their party ideology? You may want to 
 
